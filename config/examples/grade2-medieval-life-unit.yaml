@@ -1,0 +1,270 @@
+# Grade 2 Cross-Curricular Unit: Life in the Middle Ages
+# Grammar Stage - Breadth and Wonder Focus
+
+project:
+  name: "Life in the Middle Ages"
+  type: "cross-curricular-unit"
+  version: "1.0"
+  description: "A 3-week integrated unit exploring medieval life through all content strands"
+
+audience:
+  grade_level: 2
+  age_range: "7-8"
+  developmental_stage: "grammar"
+  reading_level:
+    target: "2.5"
+    range: "2.0-3.0"
+  prior_knowledge:
+    - "Basic understanding of time periods (long ago vs. now)"
+    - "Simple map reading"
+    - "Number sense through 100"
+
+curriculum:
+  history_cycle: "medieval"
+  cycle_year: 2
+  unit_number: 4
+
+# Cross-curricular content strands
+content:
+  history:
+    title: "Life in a Medieval Castle"
+    essential_questions:
+      - "What was life like for people in the Middle Ages?"
+      - "How is medieval life different from our life today?"
+    key_content:
+      - "Castle structure and purpose"
+      - "Roles in medieval society (king, knights, peasants)"
+      - "Daily life in a castle"
+      - "Medieval food, clothing, and entertainment"
+    primary_sources:
+      - type: "illuminated_manuscript"
+        source: "Très Riches Heures (adapted images)"
+        use: "Observation and discussion of medieval life"
+      - type: "adaptation"
+        source: "Chronicle descriptions of castle life"
+        use: "Read aloud with discussion"
+    narrative_spine: "David Macaulay's 'Castle' (adapted)"
+
+  science:
+    title: "Simple Machines in the Castle"
+    connection: "Medieval technology used simple machines"
+    content:
+      - "Levers (drawbridge, catapult)"
+      - "Pulleys (well, portcullis)"
+      - "Inclined planes (ramps, stairs)"
+      - "Wheels and axles (carts, mill)"
+    investigations:
+      - "Build a working drawbridge with lever"
+      - "Test pulleys for raising castle supplies"
+      - "Compare effort on ramps vs. lifting"
+
+  mathematics:
+    title: "Castle Measurements and Shapes"
+    connection: "Building and supplying a castle requires math"
+    content:
+      - "Measurement (length, height of towers)"
+      - "Shapes in castle architecture (rectangles, circles, triangles)"
+      - "Skip counting and patterns (stone courses)"
+      - "Story problems with castle context"
+    activities:
+      - "Measure classroom to castle scale"
+      - "Find shapes in castle diagrams"
+      - "Calculate supplies for castle feast"
+
+  grammar:
+    title: "Medieval Words and Writing"
+    connection: "Language from the Middle Ages still influences us"
+    content:
+      - "Medieval vocabulary (castle, knight, peasant, feast)"
+      - "Latin roots in medieval words"
+      - "Letter writing format (to the king)"
+      - "Descriptive writing about castle life"
+    latin_integration:
+      - "rex (king), miles (soldier), castellum (castle)"
+      - "Connect to English derivatives"
+    writing_projects:
+      - "Description of castle room"
+      - "Letter from castle dweller"
+      - "Labeled castle diagram"
+
+  bible:
+    title: "Faith in the Middle Ages"
+    connection: "Christianity shaped medieval life and thought"
+    content:
+      - "Church as center of medieval community"
+      - "Stories of medieval saints (Francis, Patrick)"
+      - "Psalms and prayers in castle chapels"
+    memory_work: "Psalm 127:1 (Unless the Lord builds the house)"
+    virtue_focus: "Service - different roles serving community"
+
+# Skill development across all content
+skills:
+  primary_skill: "Observation"
+  skill_level: 2
+  expression_by_subject:
+    history: "Notice details in primary source images"
+    science: "Observe how simple machines work"
+    math: "Identify shapes and patterns"
+    grammar: "Notice interesting words and phrases"
+    bible: "Observe how faith shaped daily life"
+
+  secondary_skills:
+    - skill: "Communication"
+      expression: "Share observations, write descriptions"
+    - skill: "Comparison"
+      expression: "Compare medieval and modern life"
+
+  metacognition: "What did I notice? What questions do I have?"
+
+# Differentiation for diverse learners
+differentiation:
+  core:
+    description: "Essential learning for all students"
+    elements:
+      - "Castle parts and purposes"
+      - "Simple machines identification"
+      - "Basic measurements"
+      - "Key vocabulary"
+
+  support:
+    description: "Additional scaffolding for struggling learners"
+    elements:
+      - "Picture-heavy materials"
+      - "Reduced vocabulary list"
+      - "Manipulatives for math"
+      - "Sentence stems for writing"
+      - "Partner reading"
+
+  enrichment:
+    description: "Extended challenges for advanced learners"
+    elements:
+      - "Compare castles from different regions"
+      - "Research specific medieval roles in depth"
+      - "More complex simple machine constructions"
+      - "Extended writing projects"
+
+# Assessment aligned with growth focus
+assessment:
+  approach: "growth-focused"
+
+  formative:
+    - "Daily observation check-ins"
+    - "Exit tickets with sentence starters"
+    - "Observation journal entries"
+    - "Teacher observation during activities"
+
+  summative:
+    - type: "performance"
+      description: "Build and explain simple machine model"
+      skills_assessed: ["observation", "communication"]
+    - type: "writing"
+      description: "Description of life in the castle"
+      skills_assessed: ["communication", "observation"]
+    - type: "presentation"
+      description: "Share castle project with younger class"
+      skills_assessed: ["communication"]
+
+  rubric_focus:
+    - "Detailed observations"
+    - "Clear communication"
+    - "Connections across subjects"
+    - "Effort and growth"
+
+# Weekly schedule
+schedule:
+  duration: "3 weeks"
+  daily_minutes:
+    history: 30
+    science: 30
+    math: 45
+    grammar: 45
+    bible: 20
+
+  week_1:
+    focus: "Introduction and Exploration"
+    history: "Introduction to Middle Ages, castle overview"
+    science: "What are simple machines?"
+    math: "Measurement introduction, castle sizes"
+    grammar: "Medieval vocabulary, observation notes"
+    bible: "Church in medieval life"
+
+  week_2:
+    focus: "Deep Investigation"
+    history: "Daily life, roles in society"
+    science: "Levers and pulleys in the castle"
+    math: "Shapes in architecture, story problems"
+    grammar: "Letter writing, descriptions"
+    bible: "Medieval saints"
+
+  week_3:
+    focus: "Creation and Sharing"
+    history: "Medieval food and entertainment"
+    science: "Build simple machine project"
+    math: "Castle feast calculations"
+    grammar: "Final writing piece, presentation prep"
+    bible: "Service and community"
+    culminating: "Castle Day - presentations, feast, activities"
+
+# Resources needed
+resources:
+  books:
+    - "Castle (David Macaulay) - adapted"
+    - "Knights in Shining Armor (Gail Gibbons)"
+    - "If You Lived in the Days of the Knights (Ann McGovern)"
+
+  primary_sources:
+    - "Illuminated manuscript images (public domain)"
+    - "Castle photographs and diagrams"
+
+  materials:
+    - "Simple machine building supplies"
+    - "Measurement tools"
+    - "Castle model materials"
+    - "Art supplies for illuminated letters"
+
+  assets:
+    reuse_from_library:
+      - "simple-machines-diagrams-set"
+      - "measurement-tools-visuals"
+      - "castle-diagram-labeled"
+    generate:
+      - "Custom castle floor plan for measurements"
+
+# Output specifications
+output:
+  formats:
+    - type: "teacher_guide"
+      pages: 30
+      includes:
+        - "Daily lesson plans"
+        - "Discussion questions"
+        - "Activity instructions"
+        - "Assessment rubrics"
+    - type: "student_materials"
+      pages: 20
+      includes:
+        - "Reading passages"
+        - "Activity sheets"
+        - "Writing templates"
+        - "Observation journal pages"
+    - type: "parent_communication"
+      pages: 2
+      includes:
+        - "Unit overview"
+        - "Key vocabulary"
+        - "Home connection activities"
+
+style:
+  tone: "warm, wonder-filled, inviting"
+  vocabulary_level: "age-appropriate with stretching"
+  sentence_length: "simple with some compound"
+  illustrations: "frequent, engaging, historically accurate"
+  formatting:
+    font_size: "14pt body, 18pt headers"
+    line_spacing: "1.5"
+    margins: "generous"
+
+agents:
+  cross_validation: true
+  confidence_threshold: 0.75
+  visualization_priority: "reuse"

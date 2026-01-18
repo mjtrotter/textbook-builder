@@ -1,0 +1,334 @@
+# Example: Algebra 1 High School Textbook
+# This demonstrates a complete configuration for a standard high school algebra textbook
+
+project:
+  name: "Algebra 1: Foundations and Applications"
+  version: "1.0.0"
+  description: "A comprehensive first-year algebra textbook for high school students"
+  authors:
+    - name: "Dr. Sarah Chen"
+      affiliation: "State University Mathematics Department"
+  language: "en-US"
+
+audience:
+  level: "high_school"
+  grade: 9
+  age_range:
+    min: 14
+    max: 15
+  prerequisites:
+    - "Arithmetic operations"
+    - "Order of operations"
+    - "Basic fractions and decimals"
+    - "Introduction to variables"
+  context: "classroom"
+
+content:
+  subject: "mathematics"
+  topics:
+    - "foundations of algebra"
+    - "linear equations"
+    - "inequalities"
+    - "functions"
+    - "graphing"
+    - "systems of equations"
+    - "exponents"
+    - "polynomials"
+    - "factoring"
+    - "quadratic functions"
+    - "statistics basics"
+
+  structure:
+    chapters: 12
+    lessons_per_chapter: 4
+    pages_per_lesson: 10
+
+  standards:
+    framework: "Common Core"
+    codes:
+      - "HSA-SSE.A.1"
+      - "HSA-SSE.A.2"
+      - "HSA-SSE.B.3"
+      - "HSA-APR.A.1"
+      - "HSA-CED.A.1"
+      - "HSA-CED.A.2"
+      - "HSA-CED.A.3"
+      - "HSA-CED.A.4"
+      - "HSA-REI.A.1"
+      - "HSA-REI.B.3"
+      - "HSA-REI.B.4"
+      - "HSA-REI.C.5"
+      - "HSA-REI.C.6"
+      - "HSA-REI.D.10"
+      - "HSA-REI.D.11"
+      - "HSA-REI.D.12"
+      - "HSF-IF.A.1"
+      - "HSF-IF.A.2"
+      - "HSF-IF.B.4"
+      - "HSF-IF.C.7"
+
+style:
+  readability:
+    flesch_kincaid_grade: 9
+    flesch_reading_ease: 60
+
+  tone: "professional"
+  pedagogy: "scaffolded"
+
+  visual:
+    use_color: true
+    illustration_style: "mixed"
+    image_density: "high"  # Math needs lots of graphs
+
+assessments:
+  formative:
+    enabled: true
+    quick_checks_per_lesson: 3
+    practice_problems_per_lesson: 15
+
+  summative:
+    enabled: true
+    chapter_tests: true
+    unit_exams: true
+
+  question_types:
+    multiple_choice: 0.20
+    short_answer: 0.15
+    extended_response: 0.10
+    calculation: 0.45
+    other: 0.10
+
+  difficulty:
+    basic: 0.30
+    intermediate: 0.50
+    advanced: 0.20
+
+  bloom_distribution:
+    remember: 0.10
+    understand: 0.20
+    apply: 0.40
+    analyze: 0.20
+    evaluate: 0.07
+    create: 0.03
+
+  answer_keys: true
+  rubrics: true
+
+output:
+  directory: "./output/algebra-1"
+
+  formats:
+    - type: "pdf"
+      variant: "print"
+      enabled: true
+    - type: "pdf"
+      variant: "digital"
+      enabled: true
+    - type: "epub"
+      enabled: true
+
+  print:
+    trim_size: "8.5x11"
+    color: true
+    paper: "60lb"
+    binding: "perfect"
+
+  typography:
+    body_font: "Georgia"
+    heading_font: "Helvetica"
+    code_font: "Courier"
+    body_size: 11
+    line_height: 1.3
+
+  layout:
+    margins:
+      top: 0.75
+      bottom: 0.75
+      inner: 0.75
+      outer: 0.5
+    headers: true
+    footers: true
+    page_numbers: true
+
+agents:
+  models:
+    default: "claude-3-sonnet"
+    technical_review: "claude-3-opus"  # Use best model for math accuracy
+    simple_tasks: "claude-3-haiku"
+
+  temperature:
+    generation: 0.5  # Lower for math precision
+    review: 0.2
+    technical: 0.1
+
+  cross_validation:
+    enabled: true
+    min_validators: 3  # Extra validation for math
+
+  confidence:
+    auto_approve: 0.95  # Higher bar for math
+    warn: 0.8
+    reject: 0.6
+
+  max_iterations: 5
+  max_parallel: 4
+
+sources:
+  directory: "./sources/algebra"
+  formats:
+    - "pdf"
+    - "tex"
+    - "md"
+
+  ocr:
+    enabled: true
+    language: "eng"
+
+  quality:
+    min_score: 0.7
+    require_review_if_below: 0.85
+
+visualization:
+  generation:
+    enabled: true
+    model: "dall-e-3"
+    style: "educational"
+
+  specs:
+    format: "PNG"
+    resolution: 300
+    max_width: 2550
+    max_height: 3300
+
+  # Math-specific visualizations
+  math_specific:
+    graph_style: "clean"
+    grid_lines: true
+    axis_labels: true
+    coordinate_system: "cartesian"
+
+  accessibility:
+    alt_text: true
+    colorblind_safe: true
+    high_contrast: true
+
+quality:
+  checks:
+    spelling: true
+    grammar: true
+    readability: true
+    accessibility: true
+    cross_references: true
+    image_resolution: true
+    math_notation: true  # Verify LaTeX renders correctly
+
+  spelling:
+    dictionary: "en_US"
+    custom_words:
+      - "parabola"
+      - "quadratic"
+      - "discriminant"
+      - "binomial"
+      - "trinomial"
+      - "monomial"
+    ignore_code: true
+
+# Chapter outline for this specific textbook
+chapter_outline:
+  - title: "Foundations of Algebra"
+    lessons:
+      - "Variables and Expressions"
+      - "Order of Operations"
+      - "Real Number System"
+      - "Properties of Real Numbers"
+
+  - title: "Solving Linear Equations"
+    lessons:
+      - "One-Step Equations"
+      - "Multi-Step Equations"
+      - "Equations with Variables on Both Sides"
+      - "Literal Equations and Formulas"
+
+  - title: "Inequalities"
+    lessons:
+      - "Solving and Graphing Inequalities"
+      - "Compound Inequalities"
+      - "Absolute Value Equations"
+      - "Absolute Value Inequalities"
+
+  - title: "Introduction to Functions"
+    lessons:
+      - "Relations and Functions"
+      - "Function Notation"
+      - "Graphs of Functions"
+      - "Rate of Change"
+
+  - title: "Linear Functions"
+    lessons:
+      - "Slope"
+      - "Slope-Intercept Form"
+      - "Point-Slope Form"
+      - "Standard Form"
+
+  - title: "Systems of Linear Equations"
+    lessons:
+      - "Graphing Systems"
+      - "Substitution Method"
+      - "Elimination Method"
+      - "Applications of Systems"
+
+  - title: "Exponents and Exponential Functions"
+    lessons:
+      - "Properties of Exponents"
+      - "Zero and Negative Exponents"
+      - "Scientific Notation"
+      - "Exponential Growth and Decay"
+
+  - title: "Polynomials"
+    lessons:
+      - "Adding and Subtracting Polynomials"
+      - "Multiplying Polynomials"
+      - "Special Products"
+      - "Dividing Polynomials"
+
+  - title: "Factoring"
+    lessons:
+      - "GCF and Grouping"
+      - "Factoring Trinomials"
+      - "Special Cases"
+      - "Solving by Factoring"
+
+  - title: "Quadratic Functions"
+    lessons:
+      - "Graphing Quadratics"
+      - "Vertex Form"
+      - "Solving Quadratic Equations"
+      - "The Quadratic Formula"
+
+  - title: "Radical Expressions"
+    lessons:
+      - "Simplifying Radicals"
+      - "Operations with Radicals"
+      - "Solving Radical Equations"
+      - "The Pythagorean Theorem"
+
+  - title: "Data Analysis and Probability"
+    lessons:
+      - "Measures of Central Tendency"
+      - "Measures of Spread"
+      - "Displaying Data"
+      - "Introduction to Probability"
+
+logging:
+  level: "INFO"
+  file: "./logs/algebra-1-build.log"
+  console: true
+
+advanced:
+  cache:
+    enabled: true
+    directory: "./.cache/algebra-1"
+    ttl: 7200
+  incremental: true
+  debug: false
+  timeout: 900

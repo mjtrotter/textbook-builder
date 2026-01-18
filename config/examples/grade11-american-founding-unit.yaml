@@ -1,0 +1,399 @@
+# Grade 11 Cross-Curricular Unit: The American Founding
+# Rhetoric Stage - Mastery and Original Contribution
+
+project:
+  name: "The American Founding: Principles, Debates, and Legacy"
+  type: "cross-curricular-unit"
+  version: "1.0"
+  description: "A 5-week integrated unit on founding principles through primary sources"
+
+audience:
+  grade_level: 11
+  age_range: "16-17"
+  developmental_stage: "rhetoric"
+  reading_level:
+    target: "college"
+    range: "11.0-13.0"
+  prior_knowledge:
+    - "Colonial and Revolutionary history (previous cycles)"
+    - "Enlightenment philosophy"
+    - "Formal logic and argumentation"
+    - "Latin IV level (reading original sources)"
+
+curriculum:
+  history_cycle: "early-modern"
+  cycle_year: 3
+  unit_number: 4
+  ap_alignment: "US History, Government and Politics"
+
+# Cross-curricular content strands
+content:
+  history:
+    title: "Founding a Republic: Principles and Compromises"
+    essential_questions:
+      - "What principles guided the American founding, and where did they originate?"
+      - "How did founders balance competing goods (liberty/order, state/federal)?"
+      - "What was the role of Christianity in founding thought?"
+      - "How should we evaluate the founders' failures alongside their achievements?"
+    key_content:
+      - "Intellectual origins (classical, Christian, Enlightenment)"
+      - "Declaration of Independence - philosophy and rhetoric"
+      - "Constitutional Convention - debates and compromises"
+      - "Federalist/Anti-Federalist debates"
+      - "Bill of Rights"
+      - "Slavery and the founding"
+      - "Religious freedom debates"
+    primary_sources:
+      - type: "political_philosophy"
+        sources:
+          - "Locke, Second Treatise (selections)"
+          - "Montesquieu, Spirit of the Laws (selections)"
+          - "Classical sources (Cicero, Polybius on mixed government)"
+      - type: "founding_documents"
+        sources:
+          - "Declaration of Independence (full)"
+          - "Constitution (full)"
+          - "Federalist Papers (10, 51, 78, 84)"
+          - "Anti-Federalist Papers (Brutus 1, Federal Farmer)"
+          - "Madison's Notes on Constitutional Convention"
+      - type: "religious_context"
+        sources:
+          - "State constitutions' religious clauses"
+          - "Founders' writings on religion (Washington, Adams, Jefferson, Madison)"
+          - "Virginia Statute for Religious Freedom"
+    historiography:
+      - "Progressive critique (Beard)"
+      - "Neo-conservative recovery (Jaffa, Arnn)"
+      - "Religious founding debate"
+
+  literature:
+    title: "Rhetoric of Revolution and Constitution"
+    connection: "The founding was achieved through persuasive writing and speaking"
+    content:
+      - "Rhetorical analysis of Declaration"
+      - "Federalist Papers as political philosophy"
+      - "Pamphlet literature (Paine, others)"
+      - "Sermon literature in Revolutionary era"
+      - "Classical oratory influence"
+    analysis_focus:
+      - "Ethos, pathos, logos in founding documents"
+      - "Structure and argument"
+      - "Audience and purpose"
+      - "Literary and rhetorical devices"
+    writing_projects:
+      - "Extended rhetorical analysis of Declaration"
+      - "Federalist/Anti-Federalist position paper"
+      - "Original oration on founding principle"
+
+  philosophy:
+    title: "Political Philosophy of the Founding"
+    connection: "The founding embodied and debated philosophical principles"
+    content:
+      - "Natural rights theory"
+      - "Social contract"
+      - "Separation of powers"
+      - "Federalism"
+      - "Republicanism vs. democracy"
+      - "Virtue and self-government"
+    texts:
+      - "Locke, Second Treatise (extended)"
+      - "Montesquieu, Spirit of the Laws (selections)"
+      - "Aristotle, Politics (on mixed government)"
+      - "Cicero, De Re Publica (selections)"
+    analysis:
+      - "Compare philosophical traditions"
+      - "Evaluate founding principles philosophically"
+      - "Contemporary applications"
+
+  mathematics:
+    title: "Quantitative Reasoning in Political Design"
+    connection: "Constitutional design involved mathematical thinking"
+    content:
+      - "Representation ratios and apportionment"
+      - "Three-fifths clause mathematics"
+      - "Electoral college calculations"
+      - "Probability in faction analysis (Federalist 10)"
+      - "Game theory basics (institutional design)"
+    activities:
+      - "Analyze apportionment mathematics"
+      - "Model electoral scenarios"
+      - "Calculate representation ratios over time"
+    standards_alignment: "Precalculus/Statistics applications"
+
+  bible:
+    title: "Christian Foundations and Religious Liberty"
+    connection: "Christianity influenced founding thought and religious freedom"
+    content:
+      - "Biblical influence on founding (covenant, human nature, law)"
+      - "Christian natural law tradition"
+      - "Religious test bans and establishment clause"
+      - "Free exercise and its limits"
+      - "Founders' various religious views"
+    key_discussions:
+      - "Was America founded as a Christian nation?"
+      - "What role should religion play in public life?"
+      - "How do we balance religious freedom with civil order?"
+    memory_work: "Romans 13:1-7 (civil authority)"
+    virtue_focus: "Prudence - balancing principles in practice"
+
+  latin:
+    title: "Classical Sources in Original"
+    connection: "Founders read classical sources in Latin"
+    content:
+      - "Cicero, De Re Publica selections"
+      - "Roman republican terminology"
+      - "Latin in founding documents (E pluribus unum, etc.)"
+    reading:
+      - "Cicero on mixed government (with translation)"
+      - "Latin mottoes and their significance"
+
+# Skill development at Rhetoric stage
+skills:
+  primary_skill: "Synthesis and Original Argument"
+  skill_level: 5
+  expression_by_subject:
+    history: "Construct original historical argument with primary evidence"
+    literature: "Produce sophisticated rhetorical analysis"
+    philosophy: "Evaluate and apply philosophical principles"
+    math: "Apply quantitative reasoning to political analysis"
+    bible: "Develop informed position on faith and founding"
+
+  secondary_skills:
+    - skill: "Critical Evaluation"
+      expression: "Evaluate historiographical interpretations"
+    - skill: "Rhetoric"
+      expression: "Persuasive writing and speaking on founding principles"
+
+  metacognition: "How do my assumptions shape my interpretation? What would change my mind?"
+
+# Differentiation for diverse learners
+differentiation:
+  core:
+    description: "Essential learning for all students"
+    elements:
+      - "Key founding documents and principles"
+      - "Major debates and compromises"
+      - "Rhetorical analysis basics"
+      - "Central historiographical positions"
+
+  support:
+    description: "Additional scaffolding for struggling learners"
+    elements:
+      - "Adapted primary sources with annotations"
+      - "Argument mapping tools"
+      - "Structured essay outlines"
+      - "Vocabulary support"
+      - "Additional historical context"
+
+  enrichment:
+    description: "Extended challenges for advanced learners"
+    elements:
+      - "Additional primary sources"
+      - "Historiographical research paper"
+      - "Original philosophical analysis"
+      - "Extended oral presentation"
+      - "Latin sources in original"
+
+  ap_preparation:
+    description: "Aligned with AP US History and Government"
+    elements:
+      - "DBQ practice with founding documents"
+      - "LEQ on founding topics"
+      - "SAQ practice"
+      - "FRQ for Government"
+
+# Assessment at Rhetoric stage
+assessment:
+  approach: "mastery-based with college preparation"
+
+  formative:
+    - "Socratic seminar leadership"
+    - "Primary source annotations"
+    - "Argument drafts with peer review"
+    - "Discussion contributions"
+    - "Philosophical dialogue journals"
+
+  summative:
+    - type: "rhetorical_analysis"
+      description: "Extended analysis of Declaration of Independence"
+      length: "2000-2500 words"
+      skills_assessed: ["analysis", "writing", "argumentation"]
+      weight: 20
+    - type: "position_paper"
+      description: "Federalist or Anti-Federalist position with primary evidence"
+      length: "1500-2000 words"
+      skills_assessed: ["argumentation", "evidence", "synthesis"]
+      weight: 20
+    - type: "dbq_essay"
+      description: "AP-style DBQ on founding topic"
+      skills_assessed: ["document analysis", "synthesis", "argumentation"]
+      weight: 15
+    - type: "original_oration"
+      description: "7-10 minute oration on founding principle"
+      skills_assessed: ["rhetoric", "delivery", "research"]
+      weight: 20
+    - type: "examination"
+      description: "Document identification, short answer, essay"
+      skills_assessed: ["knowledge", "analysis", "writing"]
+      weight: 15
+    - type: "seminar_leadership"
+      description: "Lead Socratic seminar on Federalist Paper"
+      skills_assessed: ["analysis", "facilitation", "questioning"]
+      weight: 10
+
+  rubric_focus:
+    - "Sophistication of argument"
+    - "Primary source evidence"
+    - "Engagement with counterarguments"
+    - "Clarity and persuasiveness"
+    - "Original insight"
+
+# Weekly schedule
+schedule:
+  duration: "5 weeks"
+  daily_minutes:
+    history: 50
+    literature: 45
+    philosophy: 30
+    math: 20
+    bible: 25
+    latin: 20
+
+  week_1:
+    focus: "Intellectual Origins"
+    history: "Classical, Christian, Enlightenment sources"
+    literature: "Introduction to Revolutionary rhetoric"
+    philosophy: "Natural rights, social contract (Locke)"
+    math: "Introduction to quantitative political analysis"
+    bible: "Biblical concepts in founding thought"
+    latin: "Roman republican terminology"
+
+  week_2:
+    focus: "Declaration and Revolution"
+    history: "Road to independence, Declaration context"
+    literature: "Rhetorical analysis of Declaration"
+    philosophy: "Natural rights in Declaration"
+    math: "Probability and representation"
+    bible: "Right of revolution, resistance to tyranny"
+    latin: "Classical allusions in Declaration"
+
+  week_3:
+    focus: "Constitutional Convention"
+    history: "Convention debates, Great Compromise, slavery"
+    literature: "Begin Federalist Papers"
+    philosophy: "Separation of powers, federalism"
+    math: "Apportionment and three-fifths clause"
+    bible: "Human nature and constitutional design"
+    latin: "Cicero on mixed government"
+
+  week_4:
+    focus: "Ratification Debates"
+    history: "Federalist vs. Anti-Federalist"
+    literature: "Federalist 10, 51; Brutus 1"
+    philosophy: "Faction, republic vs. democracy"
+    math: "Electoral college mathematics"
+    bible: "Religious liberty debates"
+    seminars: "Student-led Socratic seminars"
+
+  week_5:
+    focus: "Synthesis and Assessment"
+    history: "Bill of Rights, legacy and critique"
+    literature: "Complete rhetorical analysis"
+    philosophy: "Evaluate founding principles"
+    all_subjects: "Presentations and final assessments"
+    culminating: "Founding Principles Symposium - orations"
+
+# Resources needed
+resources:
+  books:
+    primary:
+      - "The Founders' Constitution (Kurland/Lerner)"
+      - "Federalist Papers (complete)"
+      - "Documentary History of Ratification (selections)"
+    secondary:
+      - "Novus Ordo Seclorum (McDonald)"
+      - "The Ideological Origins (Bailyn)"
+      - "Original Intent (Barton) - for religious founding view"
+      - "Nature's God (Stewart) - for contrary view"
+
+  primary_sources:
+    extensive_collection:
+      - "Declaration of Independence"
+      - "Constitution and Bill of Rights"
+      - "Federalist Papers (selected)"
+      - "Anti-Federalist writings"
+      - "Madison's Notes"
+      - "State ratification debates"
+      - "Founders' correspondence"
+      - "Locke, Montesquieu, classical sources"
+
+  materials:
+    - "Document analysis guides"
+    - "Seminar preparation materials"
+    - "Argument mapping tools"
+
+  digital:
+    - "Founders Online (National Archives)"
+    - "Library of Congress founding documents"
+    - "Avalon Project (Yale)"
+    - "AP Classroom resources"
+
+  assets:
+    reuse_from_library:
+      - "founding-documents-facsimiles"
+      - "constitutional-convention-diagrams"
+      - "electoral-maps-historical"
+    generate:
+      - "Custom apportionment visualizations"
+      - "Argument maps for Federalist Papers"
+
+# Output specifications
+output:
+  formats:
+    - type: "teacher_guide"
+      pages: 75
+      includes:
+        - "Daily plans with Socratic questions"
+        - "Primary source teaching notes"
+        - "Seminar facilitation guides"
+        - "Assessment rubrics"
+        - "AP alignment notes"
+    - type: "primary_source_reader"
+      pages: 100
+      includes:
+        - "Full founding documents"
+        - "Annotated philosophical sources"
+        - "Contextual introductions"
+        - "Analysis questions"
+    - type: "student_workbook"
+      pages: 50
+      includes:
+        - "Annotation guides"
+        - "Essay planning templates"
+        - "Seminar preparation sheets"
+        - "Argument mapping tools"
+    - type: "assessment_materials"
+      pages: 30
+      includes:
+        - "Detailed rubrics"
+        - "DBQ documents"
+        - "Exam"
+        - "Oration evaluation forms"
+
+style:
+  tone: "intellectually rigorous, respectful debate"
+  vocabulary_level: "academic, college-preparatory"
+  sentence_length: "sophisticated, varied"
+  illustrations: "primary source facsimiles, analytical diagrams"
+  formatting:
+    font_size: "10pt body, 12pt headers"
+    line_spacing: "single"
+    margins: "standard academic"
+
+agents:
+  cross_validation: true
+  confidence_threshold: 0.85
+  visualization_priority: "reuse"
+  historical_accuracy_check: true
+  primary_source_verification: true
+  multiple_perspectives_required: true

@@ -1,0 +1,313 @@
+# Textbook Builder - Default Configuration
+# Copy this file and modify for your specific project
+
+# =============================================================================
+# PROJECT SETTINGS
+# =============================================================================
+project:
+  name: "Untitled Textbook"
+  version: "1.0.0"
+  description: "A textbook created with Textbook Builder"
+  authors:
+    - name: "Author Name"
+      affiliation: "Institution"
+  language: "en-US"
+  isbn: ""  # Optional
+
+# =============================================================================
+# AUDIENCE CONFIGURATION
+# =============================================================================
+audience:
+  # Options: elementary, middle_school, high_school, college
+  level: "high_school"
+
+  # Specific grade (for K-12)
+  grade: 9
+
+  # Age range
+  age_range:
+    min: 14
+    max: 15
+
+  # Prior knowledge assumed
+  prerequisites:
+    - "Basic algebra"
+    - "Pre-algebra concepts"
+
+  # Learning context
+  context: "classroom"  # classroom, self-study, online
+
+# =============================================================================
+# CONTENT SETTINGS
+# =============================================================================
+content:
+  # Primary subject area
+  subject: "mathematics"
+
+  # Specific topics/subfields
+  topics:
+    - "algebra"
+    - "linear equations"
+    - "quadratic functions"
+
+  # Structure
+  structure:
+    chapters: 12
+    lessons_per_chapter: 4
+    pages_per_lesson: 8
+
+  # Curriculum standards alignment (optional)
+  standards:
+    framework: "Common Core"
+    codes:
+      - "HSA-REI.A.1"
+      - "HSA-REI.B.3"
+
+# =============================================================================
+# STYLE SETTINGS
+# =============================================================================
+style:
+  # Readability target (Flesch-Kincaid)
+  readability:
+    flesch_kincaid_grade: 9
+    flesch_reading_ease: 60
+
+  # Tone
+  tone: "professional"  # friendly, engaging, professional, scholarly
+
+  # Pedagogical approach
+  pedagogy: "scaffolded"  # traditional, inquiry, project-based, scaffolded
+
+  # Visual style
+  visual:
+    use_color: true
+    illustration_style: "realistic"  # cartoon, realistic, technical, mixed
+    image_density: "medium"  # low, medium, high
+
+# =============================================================================
+# ASSESSMENT SETTINGS
+# =============================================================================
+assessments:
+  # Enable different assessment types
+  formative:
+    enabled: true
+    quick_checks_per_lesson: 2
+    practice_problems_per_lesson: 10
+
+  summative:
+    enabled: true
+    chapter_tests: true
+    unit_exams: true
+
+  # Question type distribution
+  question_types:
+    multiple_choice: 0.30
+    short_answer: 0.25
+    extended_response: 0.15
+    calculation: 0.20
+    other: 0.10
+
+  # Difficulty distribution
+  difficulty:
+    basic: 0.30
+    intermediate: 0.50
+    advanced: 0.20
+
+  # Bloom's taxonomy distribution
+  bloom_distribution:
+    remember: 0.15
+    understand: 0.25
+    apply: 0.30
+    analyze: 0.20
+    evaluate: 0.07
+    create: 0.03
+
+  # Generate answer keys
+  answer_keys: true
+
+  # Generate rubrics for open-ended questions
+  rubrics: true
+
+# =============================================================================
+# OUTPUT SETTINGS
+# =============================================================================
+output:
+  # Output directory
+  directory: "./output"
+
+  # Output formats
+  formats:
+    - type: "pdf"
+      variant: "print"
+      enabled: true
+    - type: "pdf"
+      variant: "digital"
+      enabled: true
+    - type: "epub"
+      enabled: true
+    - type: "kindle"
+      enabled: false
+
+  # Print specifications
+  print:
+    trim_size: "6x9"  # 6x9, 8.5x11, 5.5x8.5
+    color: true
+    paper: "60lb"
+    binding: "perfect"  # perfect, saddle, spiral
+
+  # Typography
+  typography:
+    body_font: "Georgia"
+    heading_font: "Helvetica"
+    code_font: "Courier"
+    body_size: 11
+    line_height: 1.3
+
+  # Page layout
+  layout:
+    margins:
+      top: 0.75
+      bottom: 0.75
+      inner: 0.75
+      outer: 0.5
+    headers: true
+    footers: true
+    page_numbers: true
+
+# =============================================================================
+# AGENT CONFIGURATION
+# =============================================================================
+agents:
+  # Model settings
+  models:
+    default: "claude-3-sonnet"
+    technical_review: "claude-3-opus"
+    simple_tasks: "claude-3-haiku"
+
+  # Temperature settings
+  temperature:
+    generation: 0.7
+    review: 0.3
+    technical: 0.2
+
+  # Cross-validation
+  cross_validation:
+    enabled: true
+    min_validators: 2
+
+  # Confidence thresholds
+  confidence:
+    auto_approve: 0.9
+    warn: 0.7
+    reject: 0.5
+
+  # Iteration limits
+  max_iterations: 5
+
+  # Parallelization
+  max_parallel: 4
+
+# =============================================================================
+# SOURCE PROCESSING
+# =============================================================================
+sources:
+  # Input directory
+  directory: "./sources"
+
+  # Supported formats
+  formats:
+    - "pdf"
+    - "docx"
+    - "epub"
+    - "md"
+    - "txt"
+
+  # OCR settings
+  ocr:
+    enabled: true
+    language: "eng"
+    fallback_only: true
+
+  # Quality requirements
+  quality:
+    min_score: 0.6
+    require_review_if_below: 0.8
+
+# =============================================================================
+# VISUALIZATION SETTINGS
+# =============================================================================
+visualization:
+  # Image generation
+  generation:
+    enabled: true
+    model: "dall-e-3"
+    style: "educational"
+
+  # Image specifications
+  specs:
+    format: "PNG"
+    resolution: 300  # DPI
+    max_width: 2550  # pixels
+    max_height: 3300  # pixels
+
+  # Accessibility
+  accessibility:
+    alt_text: true
+    colorblind_safe: true
+    high_contrast: true
+
+  # Sourcing from existing materials
+  sourcing:
+    enabled: true
+    license_check: true
+
+# =============================================================================
+# QUALITY ASSURANCE
+# =============================================================================
+quality:
+  # Checks to run
+  checks:
+    spelling: true
+    grammar: true
+    readability: true
+    accessibility: true
+    cross_references: true
+    image_resolution: true
+
+  # Spelling settings
+  spelling:
+    dictionary: "en_US"
+    custom_words: []
+    ignore_code: true
+
+  # Grammar settings
+  grammar:
+    strictness: "standard"  # relaxed, standard, strict
+
+# =============================================================================
+# LOGGING & MONITORING
+# =============================================================================
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/build.log"
+  console: true
+  rotation: "daily"
+
+# =============================================================================
+# ADVANCED SETTINGS
+# =============================================================================
+advanced:
+  # Caching
+  cache:
+    enabled: true
+    directory: "./.cache"
+    ttl: 3600  # seconds
+
+  # Incremental builds
+  incremental: true
+
+  # Debug mode
+  debug: false
+
+  # Timeout (seconds)
+  timeout: 600

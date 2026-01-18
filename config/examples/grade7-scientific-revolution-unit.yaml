@@ -1,0 +1,348 @@
+# Grade 7 Cross-Curricular Unit: The Scientific Revolution
+# Logic Stage - Depth and Connections Focus
+
+project:
+  name: "The Scientific Revolution: How We Know What We Know"
+  type: "cross-curricular-unit"
+  version: "1.0"
+  description: "A 4-week integrated unit examining the Scientific Revolution's transformation of knowledge"
+
+audience:
+  grade_level: 7
+  age_range: "12-13"
+  developmental_stage: "logic"
+  reading_level:
+    target: "8.0"
+    range: "7.0-9.0"
+  prior_knowledge:
+    - "Renaissance overview (previous unit)"
+    - "Basic scientific method"
+    - "Pre-algebra mathematics"
+    - "Latin grammar (2+ years)"
+
+curriculum:
+  history_cycle: "early-modern"
+  cycle_year: 3
+  unit_number: 2
+
+# Cross-curricular content strands
+content:
+  history:
+    title: "Revolution in Thought: From Aristotle to Newton"
+    essential_questions:
+      - "How did the Scientific Revolution change how humans understand the world?"
+      - "What made this shift possible, and what resisted it?"
+      - "How did faith and reason interact during this period?"
+    key_content:
+      - "Copernicus and the heliocentric model"
+      - "Galileo and observational evidence"
+      - "Kepler and mathematical laws"
+      - "Newton's synthesis"
+      - "Scientific societies and publication"
+      - "Church and science relationship"
+    primary_sources:
+      - type: "treatise"
+        source: "Galileo, 'Starry Messenger' (selections)"
+        use: "Analyze firsthand observations"
+      - type: "letter"
+        source: "Galileo's letter to the Grand Duchess Christina"
+        use: "Faith and science relationship"
+      - type: "scientific_text"
+        source: "Newton's Principia (adapted selections)"
+        use: "Mathematical approach to nature"
+      - type: "trial_records"
+        source: "Galileo's trial documents (adapted)"
+        use: "Analyze multiple perspectives"
+    historiography:
+      - "Traditional warfare narrative (science vs. religion)"
+      - "Complexity thesis (faith enabled science)"
+
+  science:
+    title: "Methods of Discovery: Observation and Experiment"
+    connection: "The Scientific Revolution established modern scientific method"
+    content:
+      - "Observation vs. theory"
+      - "Controlled experiments"
+      - "Mathematical description of nature"
+      - "Replication and peer review"
+      - "Models and their limits"
+    investigations:
+      - "Replicate Galileo's inclined plane experiments"
+      - "Observe planetary motion (simulation)"
+      - "Design controlled experiment on motion"
+      - "Analyze the role of instruments (telescope, microscope)"
+    physics_connection:
+      - "Laws of motion preview"
+      - "Gravity concepts"
+      - "Kinematics (position, velocity, acceleration)"
+
+  mathematics:
+    title: "The Language of Nature: Mathematics in Science"
+    connection: "The Scientific Revolution made math the language of physics"
+    content:
+      - "Equations representing physical relationships"
+      - "Graphing motion (distance-time, velocity-time)"
+      - "Proportional reasoning in Kepler's laws"
+      - "Introduction to functions"
+    activities:
+      - "Graph Galileo's ball-rolling data"
+      - "Calculate orbital periods using Kepler's third law"
+      - "Derive relationships from data"
+      - "Mathematical modeling basics"
+    standards_alignment: "Pre-algebra/early Algebra I"
+
+  grammar:
+    title: "Scientific Discourse and Argumentation"
+    connection: "Scientists developed new ways of writing and arguing"
+    content:
+      - "Scientific writing conventions"
+      - "Argument structure (claim, evidence, reasoning)"
+      - "Logical fallacies"
+      - "Reading scientific prose"
+      - "Latin in scientific nomenclature"
+    latin_integration:
+      - "Scientific Latin (hypothesis, experiment, data, etc.)"
+      - "Reading scientific names and terms"
+      - "Newton's Principia original Latin (brief exposure)"
+    writing_projects:
+      - "Lab report on replicated experiment"
+      - "Argumentative essay on historical interpretation"
+      - "Analysis of primary source"
+
+  bible:
+    title: "Faith and Natural Philosophy"
+    connection: "Christian theology provided framework for scientific inquiry"
+    content:
+      - "Doctrine of creation and natural law"
+      - "General revelation (God known through nature)"
+      - "Scientists' faith (Galileo, Newton, Kepler)"
+      - "Proper interpretation of Scripture and nature"
+    memory_work: "Psalm 19:1-4 (heavens declare)"
+    key_discussions:
+      - "Why did science develop in Christian Europe?"
+      - "How should we interpret Scripture on nature?"
+      - "What are the limits of scientific knowledge?"
+    virtue_focus: "Humility - willingness to revise beliefs based on evidence"
+
+# Skill development across all content
+skills:
+  primary_skill: "Reasoning and Argumentation"
+  skill_level: 4
+  expression_by_subject:
+    history: "Evaluate historical interpretations using evidence"
+    science: "Design experiments, analyze data, draw conclusions"
+    math: "Use mathematical reasoning to describe relationships"
+    grammar: "Construct and evaluate arguments"
+    bible: "Reason carefully about faith and knowledge"
+
+  secondary_skills:
+    - skill: "Analysis"
+      expression: "Analyze sources, data, arguments for validity"
+    - skill: "Communication"
+      expression: "Write lab reports, essays, and presentations"
+
+  metacognition: "How do I know what I know? How strong is my evidence?"
+
+# Differentiation for diverse learners
+differentiation:
+  core:
+    description: "Essential learning for all students"
+    elements:
+      - "Key figures and their contributions"
+      - "Scientific method steps"
+      - "Basic experimental analysis"
+      - "Central faith-science questions"
+
+  support:
+    description: "Additional scaffolding for struggling learners"
+    elements:
+      - "Graphic organizers for complex arguments"
+      - "Adapted primary sources with glossary"
+      - "Step-by-step math procedures"
+      - "Sentence frames for writing"
+      - "Additional visual explanations"
+
+  enrichment:
+    description: "Extended challenges for advanced learners"
+    elements:
+      - "Read original source selections"
+      - "Complex mathematical applications"
+      - "Historiographical essay"
+      - "Independent research project"
+      - "Evaluate modern science-faith debates"
+
+  acceleration:
+    description: "For students in competition math track"
+    elements:
+      - "Derive Kepler's laws from data"
+      - "Calculus preview (rates of change)"
+      - "Advanced problem sets"
+
+# Assessment aligned with logic stage focus
+assessment:
+  approach: "standards-based with growth narrative"
+
+  formative:
+    - "Socratic seminar participation"
+    - "Lab notebook checks"
+    - "Argument analysis exercises"
+    - "Quick writes on essential questions"
+    - "Math problem sets"
+
+  summative:
+    - type: "lab_report"
+      description: "Formal report on replicated Galileo experiment"
+      skills_assessed: ["scientific method", "communication", "analysis"]
+      weight: 25
+    - type: "primary_source_analysis"
+      description: "Analysis of Galileo's letter on faith and science"
+      skills_assessed: ["analysis", "reasoning"]
+      weight: 20
+    - type: "argumentative_essay"
+      description: "Evaluate warfare vs. complexity thesis on science and faith"
+      skills_assessed: ["argumentation", "evidence evaluation"]
+      weight: 25
+    - type: "examination"
+      description: "Content and skills assessment"
+      skills_assessed: ["knowledge", "application"]
+      weight: 20
+    - type: "presentation"
+      description: "Present on a Scientific Revolution figure"
+      skills_assessed: ["research", "communication"]
+      weight: 10
+
+  rubric_focus:
+    - "Evidence quality and use"
+    - "Logical reasoning"
+    - "Clarity of communication"
+    - "Depth of analysis"
+    - "Growth from feedback"
+
+# Weekly schedule
+schedule:
+  duration: "4 weeks"
+  daily_minutes:
+    history: 45
+    science: 50
+    math: 50
+    grammar: 45
+    bible: 30
+
+  week_1:
+    focus: "The Old Worldview and Its Challengers"
+    history: "Medieval cosmology, Copernicus' revolution"
+    science: "Scientific method review, observation vs. theory"
+    math: "Graphing review, representing relationships"
+    grammar: "Argument structure, logical fallacies"
+    bible: "Creation doctrine, general revelation"
+
+  week_2:
+    focus: "Galileo and Evidence"
+    history: "Galileo's observations, conflict with Church"
+    science: "Galileo's experiments - replicate and analyze"
+    math: "Graphing motion data, interpreting slopes"
+    grammar: "Primary source analysis, scientific writing"
+    bible: "Interpreting Scripture on nature"
+
+  week_3:
+    focus: "Kepler and Newton - Mathematical Laws"
+    history: "Kepler's laws, Newton's synthesis"
+    science: "Laws of motion introduction, gravity"
+    math: "Proportional reasoning, Kepler's third law"
+    grammar: "Argumentative essay drafting"
+    bible: "Scientists' faith, limits of science"
+
+  week_4:
+    focus: "Synthesis and Assessment"
+    history: "Legacy of Scientific Revolution, historiography"
+    science: "Complete lab report, review"
+    math: "Applications and review"
+    grammar: "Essay revision, presentations"
+    bible: "Faith and reason synthesis"
+    culminating: "Scientific Revolution symposium"
+
+# Resources needed
+resources:
+  books:
+    primary_texts:
+      - "Galileo's Daughter (Sobel) - adapted"
+      - "Primary source reader with selections"
+    secondary_texts:
+      - "History of science textbook chapter"
+      - "Physics concepts text"
+
+  primary_sources:
+    - "Galileo, Starry Messenger (adapted)"
+    - "Galileo's letter to Grand Duchess Christina"
+    - "Newton, Principia selections (adapted)"
+    - "Kepler's writings (selections)"
+    - "Trial of Galileo documents"
+
+  materials:
+    - "Inclined plane for Galileo experiment"
+    - "Timing devices"
+    - "Graphing materials"
+    - "Telescope access (if possible)"
+
+  digital:
+    - "Planetary motion simulations"
+    - "Historical images and diagrams"
+    - "Graphing calculators/software"
+
+  assets:
+    reuse_from_library:
+      - "solar-system-diagrams-heliocentric"
+      - "scientific-method-flowchart"
+      - "graphing-motion-examples"
+    adapt:
+      - "timeline-scientific-revolution"
+    generate:
+      - "Custom Galileo experiment data visualization"
+
+# Output specifications
+output:
+  formats:
+    - type: "teacher_guide"
+      pages: 50
+      includes:
+        - "Daily lesson plans with Socratic questions"
+        - "Primary source teaching notes"
+        - "Lab procedures and expected results"
+        - "Assessment rubrics"
+        - "Differentiation guides"
+    - type: "student_text"
+      pages: 60
+      includes:
+        - "Historical narrative with primary sources"
+        - "Science content with investigations"
+        - "Math applications"
+        - "Writing assignments"
+        - "Study guides"
+    - type: "primary_source_packet"
+      pages: 25
+      includes:
+        - "Adapted sources with vocabulary"
+        - "Analysis questions"
+        - "Historical context"
+    - type: "assessment_materials"
+      pages: 15
+      includes:
+        - "Rubrics"
+        - "Exam"
+        - "Self-assessment tools"
+
+style:
+  tone: "intellectually challenging, respectful of complexity"
+  vocabulary_level: "academic with support"
+  sentence_length: "varied, some complex"
+  illustrations: "diagrams, primary source images, graphs"
+  formatting:
+    font_size: "11pt body, 14pt headers"
+    line_spacing: "1.15"
+    margins: "standard"
+
+agents:
+  cross_validation: true
+  confidence_threshold: 0.8
+  visualization_priority: "reuse_then_adapt"
+  historical_accuracy_check: true
